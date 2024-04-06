@@ -78,5 +78,7 @@ const server = http.createServer(function (req, res) {
 });
 
 server.listen(4000, function () {
-  console.log("servr is running now");
+  console.log(
+    "server is running now, you can access this server at http://localhost:4000"
+  );
 });
